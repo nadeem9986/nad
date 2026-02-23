@@ -1,462 +1,548 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>nadeems portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="C:\Users\91998\OneDrive\Documents\GitHub\nad\images\fulls\WhatsApp Image 2023-11-20 at 6.56.09 PM.jpeg" alt="" /></a>
-					<h1><strong>I am nadeem</strong>, <br />a student passionate about tech.<br /> Recently, I dipped my toes into web development,<br/> aiming to become a full-stack wizard.<br />
-					</a>.</h1>
-				</div>
-			</header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nadeem — Full Stack Developer & AI Enthusiast</title>
+  <meta name="description"
+    content="Nadeem is a Full Stack Developer and AI Enthusiast based in Bengaluru, India. Building scalable web applications with AI at the core." />
+  <meta name="keywords" content="Nadeem, Full Stack Developer, AI, React, Node.js, Python, LangChain, Bengaluru" />
+  <meta property="og:title" content="Nadeem — Full Stack Developer & AI Enthusiast" />
+  <meta property="og:description" content="Building scalable web applications with AI at the core." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/portfolio.css" />
+</head>
 
-		<!-- Main -->
-			<div id="main">
+<body>
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>hello Iam Nadeem and this is the test one of my website  <br /> i hope its working fine
-							.</h2>
-						</header>
-						<p> ok so lets get started with a little about myself <br /> im a student who is currently studying <br />at <strong>THE OXFORD COLLEGE OF ENGINEERING</strong> <br />currently in final year   </p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-					</section>
+  <!-- Liquid Glass SVG Filter -->
+  <svg xmlns="http://www.w3.org/2000/svg" role="presentation" style="display:none;position:absolute;width:0;height:0">
+    <defs>
+      <filter id="glass-distortion" x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox">
+        <feTurbulence type="fractalNoise" baseFrequency="0.001 0.005" numOctaves="1" seed="17" result="turbulence" />
+        <feComponentTransfer in="turbulence" result="mapped">
+          <feFuncR type="gamma" amplitude="1" exponent="10" offset="0.5" />
+          <feFuncG type="gamma" amplitude="0" exponent="1" offset="0" />
+          <feFuncB type="gamma" amplitude="0" exponent="1" offset="0.5" />
+        </feComponentTransfer>
+        <feGaussianBlur in="turbulence" stdDeviation="3" result="softMap" />
+        <feSpecularLighting in="softMap" surfaceScale="5" specularConstant="1" specularExponent="100"
+          lighting-color="white" result="specLight">
+          <fePointLight x="-200" y="-200" z="300" />
+        </feSpecularLighting>
+        <feComposite in="specLight" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" result="litImage" />
+        <feDisplacementMap in="SourceGraphic" in2="softMap" scale="80" xChannelSelector="R" yChannelSelector="G" />
+      </filter>
+    </defs>
+  </svg>
+  <!-- /Liquid Glass SVG Filter -->
 
-				<!-- Two -->
-					<section id="two">
-						<h2>Recent Work</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/thumbs/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>the above is my first website </h3>
-								<p>it took a lot of trial and error but it worked </p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>this above is my second website which im currently working on</h3>
-								<p>this second website is based on the portfolio <br /> this is my first portfolio so there is a lot to learn</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>this above is my third project </h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>here is the fourth</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>here i havent decided what to do yet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>same case even here</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-						</div>
-						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>
-					</section>
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">N<span class="accent-dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="resume/Nadeem_resume.pdf" download class="nav-cta" id="resumeBtn">Resume ↓</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 
-				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<p>well the below form doesnt work if u wanna try it thn u can try it ofcourse no problem  </p>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										1234 Somewhere Rd.<br />
-										Nashville, TN 00000<br />
-										United States
-									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										000-000-0000
-									</li>
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="#">hello@untitled.tld</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow fade-up delay-1">Hi, I'm <span style="color:#fff;font-weight:700;">Nadeem</span> — Based in
+        Bengaluru, India</p>
+      <h1 class="hero-title fade-up delay-2">
+        Full Stack Developer.<br />
+        <span class="hero-accent">AI Enthusiast.</span>
+      </h1>
+      <p class="hero-subtitle fade-up delay-3">
+        Entry-level developer passionate about building scalable web applications<br class="hide-mobile" />
+        and integrating intelligent AI systems into real-world products.
+      </p>
+      <div class="hero-actions fade-up delay-4">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-socials fade-up delay-5">
+        <a href="https://www.linkedin.com/in/nadeem-233a46256/" target="_blank" rel="noopener" aria-label="LinkedIn"
+          class="social-link">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+            <rect x="2" y="9" width="4" height="12" />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/nadeem9986" target="_blank" rel="noopener" aria-label="GitHub" class="social-link">
+          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z" />
+          </svg>
+          GitHub
+        </a>
+        <a href="mailto:nadeemise2025@gmail.com" class="social-link" aria-label="Email">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <rect x="2" y="4" width="20" height="16" rx="2" />
+            <path d="m2 7 10 7 10-7" />
+          </svg>
+          Email
+        </a>
+      </div>
+    </div>
 
-				<!-- Four -->
-				<!--
-					<section id="four">
-						<h2>Elements</h2>
+  </section>
 
-						<section>
-							<h4>Text</h4>
-							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-							<hr />
-							<header>
-								<h4>Heading with a Subtitle</h4>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<header>
-								<h5>Heading with a Subtitle</h5>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<hr />
-							<h2>Heading Level 2</h2>
-							<h3>Heading Level 3</h3>
-							<h4>Heading Level 4</h4>
-							<h5>Heading Level 5</h5>
-							<h6>Heading Level 6</h6>
-							<hr />
-							<h5>Blockquote</h5>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-							<h5>Preformatted</h5>
-							<pre><code>i = 0;
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label fade-up">About</div>
+      <div class="about-grid">
+        <div class="about-text fade-up">
+          <h2 class="section-title">Building at the intersection of<br /><span class="accent">code and
+              intelligence.</span></h2>
+          <p class="about-para">
+            I'm Nadeem, an entry-level Full Stack Developer with a keen interest in building scalable web applications
+            and exploring Agentic AI systems. I'm experienced with the MERN stack and integrating LLM APIs for features
+            like recommendations and natural language search.
+          </p>
+          <p class="about-para">
+            I have a solid foundation in backend development, REST APIs, and responsive UI design. Seeking an
+            opportunity to learn, contribute, and grow in a dynamic development environment.
+          </p>
+          <div class="about-tags">
+            <span class="tag">React.js</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Python</span>
+            <span class="tag">LangChain</span>
+            <span class="tag">OpenAI</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">Docker</span>
+            <span class="tag">RAG</span>
+          </div>
+        </div>
+        <div class="about-stats fade-up delay-2">
+          <div class="stat-card">
+            <div class="stat-number accent">3+</div>
+            <div class="stat-label">AI Projects Built</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number accent">2025</div>
+            <div class="stat-label">B.E. Graduate</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number accent">MERN</div>
+            <div class="stat-label">Core Stack</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number accent">OpenAI</div>
+            <div class="stat-label">LLM Integration</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
+  <!-- SKILLS -->
+  <section id="skills" class="section section-dark">
+    <div class="container">
+      <div class="section-label fade-up">Skills</div>
+      <h2 class="section-title fade-up">Technical <span class="accent">Expertise</span></h2>
+      <div class="skills-grid">
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-						</section>
+        <div class="skill-group fade-up delay-1">
+          <div class="skill-group-icon">
+            <svg width="24" height="24" fill="none" stroke="#FCA311" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" />
+              <path d="M2 17l10 5 10-5" />
+              <path d="M2 12l10 5 10-5" />
+            </svg>
+          </div>
+          <h3 class="skill-group-title">AI &amp; Agentic</h3>
+          <ul class="skill-list">
+            <li>Prompt Engineering</li>
+            <li>LLM Integration (OpenAI / Gemini)</li>
+            <li>LangChain</li>
+            <li>RAG Pipelines</li>
+            <li>Vector Databases (Pinecone)</li>
+          </ul>
+        </div>
 
-						<section>
-							<h4>Lists</h4>
-							<div class="row">
-								<div class="col-6 col-12-xsmall">
-									<h5>Unordered</h5>
-									<ul>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-									<h5>Alternate</h5>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<h5>Ordered</h5>
-									<ol>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ol>
-									<h5>Icons</h5>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-									</ul>
-								</div>
-							</div>
-							<h5>Actions</h5>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Default</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions small">
-								<li><a href="#" class="button primary small">Small</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small">Small</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary fit">Default</a></li>
-										<li><a href="#" class="button fit">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small fit">Small</a></li>
-										<li><a href="#" class="button small fit">Small</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
+        <div class="skill-group fade-up delay-2">
+          <div class="skill-group-icon">
+            <svg width="24" height="24" fill="none" stroke="#FCA311" stroke-width="2" viewBox="0 0 24 24">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+          </div>
+          <h3 class="skill-group-title">Frontend</h3>
+          <ul class="skill-list">
+            <li>React.js</li>
+            <li>JavaScript (ES6+)</li>
+            <li>HTML5 &amp; CSS3</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </div>
 
-						<section>
-							<h4>Table</h4>
-							<h5>Default</h5>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
+        <div class="skill-group fade-up delay-3">
+          <div class="skill-group-icon">
+            <svg width="24" height="24" fill="none" stroke="#FCA311" stroke-width="2" viewBox="0 0 24 24">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4" />
+            </svg>
+          </div>
+          <h3 class="skill-group-title">Backend</h3>
+          <ul class="skill-list">
+            <li>Node.js &amp; Express.js</li>
+            <li>Python &amp; Flask</li>
+            <li>RESTful API Design</li>
+            <li>JWT / OAuth Auth</li>
+          </ul>
+        </div>
 
-							<h5>Alternate</h5>
-							<div class="table-wrapper">
-								<table class="alt">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
+        <div class="skill-group fade-up delay-4">
+          <div class="skill-group-icon">
+            <svg width="24" height="24" fill="none" stroke="#FCA311" stroke-width="2" viewBox="0 0 24 24">
+              <ellipse cx="12" cy="5" rx="9" ry="3" />
+              <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5" />
+              <path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3" />
+            </svg>
+          </div>
+          <h3 class="skill-group-title">Databases &amp; Tools</h3>
+          <ul class="skill-list">
+            <li>MongoDB &amp; MySQL</li>
+            <li>Git &amp; GitHub</li>
+            <li>Docker</li>
+            <li>Linux &amp; VS Code</li>
+            <li>Figma</li>
+          </ul>
+        </div>
 
-						<section>
-							<h4>Buttons</h4>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Primary</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button large">Large</a></li>
-								<li><a href="#" class="button">Default</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<ul class="actions fit">
-								<li><a href="#" class="button primary fit">Fit</a></li>
-								<li><a href="#" class="button fit">Fit</a></li>
-							</ul>
-							<ul class="actions fit small">
-								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-								<li><a href="#" class="button fit small">Fit + Small</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-							</ul>
-							<ul class="actions">
-								<li><span class="button primary disabled">Primary</span></li>
-								<li><span class="button disabled">Default</span></li>
-							</ul>
-						</section>
+      </div>
+    </div>
+  </section>
 
-						<section>
-							<h4>Form</h4>
-							<form method="post" action="#">
-								<div class="row gtr-uniform gtr-50">
-									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<select name="demo-category" id="demo-category">
-											<option value="">- Category -</option>
-											<option value="1">Manufacturing</option>
-											<option value="1">Shipping</option>
-											<option value="1">Administration</option>
-											<option value="1">Human Resources</option>
-										</select>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-										<label for="demo-priority-low">Low Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-normal" name="demo-priority">
-										<label for="demo-priority-normal">Normal Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-high" name="demo-priority">
-										<label for="demo-priority-high">High Priority</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy of this message</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">I am a human and not a robot</label>
-									</div>
-									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-label fade-up">Projects</div>
+      <h2 class="section-title fade-up">Things I've <span class="accent">Built</span></h2>
+      <div class="projects-list">
 
-						<section>
-							<h4>Image</h4>
-							<h5>Fit</h5>
-							<div class="box alt">
-								<div class="row gtr-50 gtr-uniform">
-									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-								</div>
-							</div>
-							<h5>Left &amp; Right</h5>
-							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						</section>
+        <!-- Project 1: Credit Card Analyzer -->
+        <div class="project-card fade-up" data-index="01">
+          <div class="project-preview">
+            <div class="project-preview-img cc-preview">
+              <div class="preview-badge">AI Powered</div>
+              <div class="preview-ui-credit">
+                <div class="pui-header">
+                  <span class="pui-dot"></span>
+                  <span class="pui-title">Credit Card AI Analyzer</span>
+                </div>
+                <div class="pui-stat-row">
+                  <div class="pui-stat"><span class="pui-num">2</span><span class="pui-lbl">AI Features</span></div>
+                  <div class="pui-stat"><span class="pui-num accent">100%</span><span class="pui-lbl">Accurate</span>
+                  </div>
+                  <div class="pui-stat"><span class="pui-num">5s</span><span class="pui-lbl">Avg Time</span></div>
+                </div>
+                <div class="pui-bar-row">
+                  <span class="pui-bar-label">Statement Extraction</span>
+                  <div class="pui-bar">
+                    <div class="pui-bar-fill" style="width:92%"></div>
+                  </div>
+                </div>
+                <div class="pui-bar-row">
+                  <span class="pui-bar-label">Spending Analysis</span>
+                  <div class="pui-bar">
+                    <div class="pui-bar-fill" style="width:65%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-num">01</div>
+            <h3 class="project-title">Credit Card AI Analyzer</h3>
+            <p class="project-desc">
+              A modern full-stack web application that uses AI to analyze credit card statements and provide intelligent
+              spending recommendations. Upload a statement image and get instant extracted data — customer name, card
+              number, amounts, and due dates via OpenAI Vision API.
+            </p>
+            <div class="project-tech">
+              <span>Python</span><span>Flask</span><span>LangChain</span><span>OpenAI
+                GPT-4o</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/nadeem9986" target="_blank" rel="noopener" class="project-link">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                View Code
+              </a>
+            </div>
+          </div>
+        </div>
 
-					</section>
-				-->
+        <!-- Project 2: InsightFlow CSV Analyzer -->
+        <div class="project-card project-card-reverse fade-up" data-index="02">
+          <div class="project-preview">
+            <div class="project-preview-img csv-preview">
+              <div class="preview-badge">AI Chat</div>
+              <div class="preview-ui-csv">
+                <div class="pui-header">
+                  <span class="pui-dot"></span>
+                  <span class="pui-title">InsightFlow AI</span>
+                </div>
+                <div class="csv-upload-box">
+                  <div class="csv-upload-icon">📊</div>
+                  <div class="csv-upload-text">Upload Data</div>
+                  <div class="csv-upload-sub">Drag & drop CSV</div>
+                </div>
+                <div class="csv-chat-bubble">
+                  <div class="bubble bubble-bot">Hello! Ask me anything about your data.</div>
+                  <div class="bubble bubble-user">Show sales by region as a chart</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-num">02</div>
+            <h3 class="project-title">InsightFlow AI — CSV Analyzer</h3>
+            <p class="project-desc">
+              An AI-powered CSV data analyst built with LangChain and OpenAI. Upload any CSV file and chat with your
+              data in plain English — get insights, summaries, and interactive charts (bar, line, pie) rendered
+              instantly in the browser.
+            </p>
+            <div class="project-tech">
+              <span>Python</span><span>Flask</span><span>LangChain</span><span>Pandas</span><span>Chart.js</span><span>OpenAI</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/nadeem9986" target="_blank" rel="noopener" class="project-link">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                View Code
+              </a>
+            </div>
+          </div>
+        </div>
 
-			</div>
+        <!-- Project 3: Legal Document RAG -->
+        <div class="project-card fade-up" data-index="03">
+          <div class="project-preview">
+            <div class="project-preview-img rag-preview">
+              <div class="preview-badge">RAG</div>
+              <div class="preview-ui-rag">
+                <div class="pui-header">
+                  <span class="pui-dot"></span>
+                  <span class="pui-title">Legal AI Assistant</span>
+                </div>
+                <div class="rag-pipeline">
+                  <div class="rag-step">
+                    <div class="rag-step-icon">🔍</div>
+                    <div class="rag-step-text">Scrape Docs</div>
+                  </div>
+                  <div class="rag-arrow">→</div>
+                  <div class="rag-step">
+                    <div class="rag-step-icon">🧠</div>
+                    <div class="rag-step-text">Embed</div>
+                  </div>
+                  <div class="rag-arrow">→</div>
+                  <div class="rag-step">
+                    <div class="rag-step-icon">💬</div>
+                    <div class="rag-step-text">Query</div>
+                  </div>
+                </div>
+                <div class="csv-chat-bubble">
+                  <div class="bubble bubble-bot">I found 3 relevant legal documents for your query.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-num">03</div>
+            <h3 class="project-title">Legal Document AI Assistant</h3>
+            <p class="project-desc">
+              A production-ready RAG chatbot for mission-critical legal intelligence. Scrapes verified legal documents,
+              processes them into a Pinecone semantic vector database, and provides context-aware Q&A with verified
+              source citations. Built with LangChain and OpenAI embeddings.
+            </p>
+            <div class="project-tech">
+              <span>Python</span><span>Streamlit</span><span>LangChain</span><span>Pinecone</span><span>OpenAI
+                Embeddings</span><span>BeautifulSoup</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/nadeem9986" target="_blank" rel="noopener" class="project-link">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+                View Code
+              </a>
+            </div>
+          </div>
+        </div>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+      </div>
+    </div>
+  </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+  <!-- EDUCATION -->
+  <section id="education" class="section section-dark">
+    <div class="container">
+      <div class="section-label fade-up">Education</div>
+      <h2 class="section-title fade-up"><span class="accent">Academic</span> Background</h2>
+      <div class="timeline">
 
-	</body>
+        <div class="timeline-item fade-up delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">2021 – 2025</div>
+            <h3 class="timeline-title">Bachelor of Engineering in Information Science</h3>
+            <div class="timeline-place">The Oxford College of Engineering, Bengaluru, India</div>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-up delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">2025</div>
+            <h3 class="timeline-title">Full Stack Web Development Certification</h3>
+            <div class="timeline-place">Ethnotech Academy, Bengaluru, India</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Interests -->
+      <div class="interests-row fade-up delay-3">
+        <div class="interest-chip">
+          <span class="interest-icon">🤖</span>
+          Agentic Workflows
+        </div>
+        <div class="interest-chip">
+          <span class="interest-icon">🌐</span>
+          Open Source
+        </div>
+        <div class="interest-chip">
+          <span class="interest-icon">🎨</span>
+          UI/UX Design
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-label fade-up">Contact</div>
+      <h2 class="section-title fade-up">Let's <span class="accent">Work Together</span></h2>
+      <p class="contact-subtitle fade-up">
+        Have a project in mind or just want to connect? Drop me a message — I'll get back to you within 24 hours.
+      </p>
+      <div class="contact-grid">
+        <div class="contact-info fade-up delay-1">
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg width="20" height="20" fill="none" stroke="#FCA311" stroke-width="2" viewBox="0 0 24 24">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <path d="m2 7 10 7 10-7" />
+              </svg>
+            </div>
+            <div>
+              <div class="contact-item-label">Email</div>
+              <a href="mailto:nadeemise2025@gmail.com" class="contact-item-value">nadeemise2025@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg width="20" height="20" fill="none" stroke="#FCA311" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </div>
+            <div>
+              <div class="contact-item-label">LinkedIn</div>
+              <a href="https://www.linkedin.com/in/nadeem-233a46256/" target="_blank" rel="noopener"
+                class="contact-item-value">linkedin.com/in/nadeem-233a46256</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg width="20" height="20" fill="currentColor" stroke="#FCA311" stroke-width="0" viewBox="0 0 24 24">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+            </div>
+            <div>
+              <div class="contact-item-label">GitHub</div>
+              <a href="https://github.com/nadeem9986" target="_blank" rel="noopener"
+                class="contact-item-value">github.com/nadeem9986</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg width="20" height="20" fill="none" stroke="#FCA311" stroke-width="2" viewBox="0 0 24 24">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16l.19.92z" />
+              </svg>
+            </div>
+            <div>
+              <div class="contact-item-label">Phone</div>
+              <a href="tel:+919986491156" class="contact-item-value">+91 9986491156</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form fade-up delay-2" id="contactForm">
+          <div class="form-group">
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" placeholder="Tell me about your project..."
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Send Message →</button>
+          <div class="form-note" id="formNote"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">N<span class="accent-dot">.</span></div>
+      <p class="footer-copy">© 2025 Nadeem. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/nadeem-233a46256/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/nadeem9986" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:nadeemise2025@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/portfolio.js"></script>
+</body>
+
 </html>
